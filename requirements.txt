@@ -1,13 +1,13 @@
-flask
-bson
-dnspython
-flask_wtf
-wtforms
-bcrypt
-Flask-PyMongo
-flask-mongoengine
-mongoengine
-pymongo
-Flask-Admin
+flask # flask for the flask library
+bson #
+dnspython #
+flask_wtf #
+wtforms #
+bcrypt #
+Flask-PyMongo #
+flask-mongoengine #
+mongoengine #
+pymongo #
+Flask-Admin #
 
 
