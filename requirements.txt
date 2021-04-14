@@ -1,13 +1,10 @@
-flask # flask for the flask library
-bson #
-dnspython #
-flask_wtf #
-wtforms #
-bcrypt #
-Flask-PyMongo #
-flask-mongoengine #
-mongoengine #
-pymongo #
-Flask-Admin #
-
-
+flask # used for the flask module
+dnspython # used for queries, zone transfers, and dynamic updates
+flask_wtf # used for the interactive user interface forms for the user.
+wtforms # used to for flexible forms validation and rendering library for Python web development.
+bcrypt # used for password security and other dta to encrypt
+Flask-PyMongo # Flask-PyMongo bridges Flask and PyMongo and provides some convenience helpers
+flask-mongoengine #Flask-MongoEngine is a Flask extension that provides integration with MongoEngine.
+mongoengine # MongoEngine is a Document-Object Mapper (think ORM, but for document databases) for working with MongoDB from Python.
+pymongo # used for interacting with MongoDB database from Python
+Flask-Admin #Flask-Admin solves the problem of building an admin interface on top of an existing data model
