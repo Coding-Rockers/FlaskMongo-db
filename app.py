@@ -7,12 +7,8 @@ from flask_admin.contrib.pymongo import ModelView
 from flask_pymongo import PyMongo
 import bcrypt
 import urllib
-
 from datetime import datetime, timedelta
-
 from forms import CustomerSignupForm, CustomerLoginForm, AddProductForm, AddProductFromAdminForm, ChangePasswordForm, OrderForm, UsersForm, ChangeAddress, ChangePersonalInfo
-
-
 from flask_mongoengine import MongoEngine
 from werkzeug.utils import secure_filename
 import mongoengine as me
@@ -127,7 +123,6 @@ admin = admin.Admin(app, template_mode='bootstrap4',index_view=MyHomeView())
 admin.add_link(MainIndexLink(name="Main Page"))
 admin.add_view(ProductView(mongo.db.products))
 admin.add_view(UserView(mongo.db.customers))
-#admin.add_link(MenuLink(name='Back to Products', url=url_for('main.products')))
 
 
 @app.context_processor
